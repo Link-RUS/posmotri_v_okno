@@ -16,6 +16,8 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -42,7 +44,8 @@ ol {
 .content {
   display: flex;
   gap: 30px;
-  margin: 133px 30px auto 30px;
+  margin: auto 30px;
+  height: 534px;
 }
 
 .result {
@@ -53,12 +56,10 @@ ol {
 .result__video-container{
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-
 }
 
 .result__video{
-
+  object-fit:cover;
 }
 
 .search-form {
@@ -73,7 +74,6 @@ ol {
   display: flex;
   flex-direction: column;
   max-width: 399px;
-  height: 534px;
   
 }
 
