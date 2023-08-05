@@ -241,7 +241,7 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow: auto;
   height: 298px;
   min-width: 399px;
   gap: 30px;
