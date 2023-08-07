@@ -61,7 +61,7 @@ ol {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  min-width: 1140px;
+  width: 1140px;
   margin: auto;
 }
 
@@ -301,7 +301,6 @@ ol {
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
-  overflow-wrap: anywhere;
 }
 
 .content__video-card-description {
@@ -310,14 +309,14 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: 90%; /* 16.2px */
-  overflow-wrap: anywhere;
 }
 
 .content__video-card-thumbnail {
   object-fit: cover;
   object-position: center;
   align-self: center;
-  max-width: 194px;
+  width: 194px;
+  height: 103px;
 }
 
 .more-button {
